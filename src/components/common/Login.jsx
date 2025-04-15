@@ -56,7 +56,7 @@ const Login = () => {
   
           setTimeout(() => {
             if (res.data.data.roleId.roleName === "User") {
-                navigate("/resume");
+                navigate("/");
             } else if (res.data.data.roleId.roleName === "Admin") {
                 navigate("/admin");
             }
@@ -78,7 +78,7 @@ const Login = () => {
         });
       }
     } catch (error) {
-      toast.error('Something Wrong', {
+      toast.error('Invalid Email Or Password', {
         position: "top-center",
         autoClose: 2000,
         hideProgressBar: false,
