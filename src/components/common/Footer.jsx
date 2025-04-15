@@ -47,9 +47,9 @@ const Footer = () => {
 
       <div className="footer-column footer-contact">
         <h3 className="footer-heading">Contact Us</h3>
-        <p className="footer-text">📍 Bopal, Ahmedabad</p>
-        <p className="footer-text">📞 +91 9510240294</p>
-        <p className="footer-text">✉️ resume.x12@gmail.com</p>
+        <p className="footer-text">📍 Bapunagar, Ahmedabad</p>
+        <p className="footer-text">📞 +91 8866208079</p>
+        <p className="footer-text">✉️ krish886620@gmail.com</p>
         
       </div>
     </div>
